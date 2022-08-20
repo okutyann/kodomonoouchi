@@ -1,0 +1,17 @@
+body {
+  color: #0b6263;
+  background-color: #f8f6f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.inner {
+  max-width: 1206px;
+  margin: 0 auto;
+}
