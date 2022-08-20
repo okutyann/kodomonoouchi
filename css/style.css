@@ -1,5 +1,5 @@
 body {
-  color: #0b6263;
+  color: #323232;
   background-color: #f8f6f2;
 }
 
@@ -15,3 +15,22 @@ a:hover {
   max-width: 1206px;
   margin: 0 auto;
 }
+
+/* ーーーーーーー フッター ーーーーーーーーー */
+footer {
+  background-color: ;
+  font-size: 20px;
+  color: ;
+  height: 100px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+@media (max-width: 745px) {
+  footer {
+    font-size: 10px;
+    height: 70px;
+    padding-top: 25px;
+  }
+}
+/* ーーーーーーーーーーーーーーーーーーーー */
