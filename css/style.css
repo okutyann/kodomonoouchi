@@ -27,6 +27,7 @@ h2 {
 h3 {
   border-bottom: 3px solid #ec6d4e;
   display: inline-block;
+  margin-bottom: 10px;
 }
 .main-title {
   text-align: center;
@@ -39,17 +40,25 @@ main {
 }
 
 /* ーーーーーーー ヘッダー ーーーーーーーーー */
+.top-img {
+  min-height: 100vh;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fffcf8;
+}
 .header-menu {
   text-align: center;
   display: block;
 }
-
 .header-nav-item {
   margin: 0px 40px;
   font-size: 20px;
   display: -moz-inline-box;
   display: inline-block;
 }
+
 /* ーーーーーーーーーーーーーーーーーーーー */
 /* ーーーーーーー メイン　挨拶 ーーーーーーーーー */
 .greeting-text {
@@ -102,6 +111,10 @@ main {
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー メイン　概要ーーーーーーーーー */
+.about {
+  background-color: #fdf7f2;
+  padding: 30px 0px;
+}
 .flex-box-img {
   width: 100%;
   height: 100%;
@@ -109,6 +122,9 @@ main {
 }
 .flex-box-img img {
   border-radius: 30px;
+}
+.flex-box-text {
+  padding-left: 20px;
 }
 .right-side {
   width: 100%;
@@ -129,8 +145,7 @@ main {
   max-width: 70%;
   border-radius: 10px;
   display: inline-block;
-  background: #fffcf8;
-  position: relative;
+  background: #fdf7f2;
 }
 .bubble p {
   margin: 5px 0px;
@@ -180,14 +195,43 @@ table td {
   background-color: #fff2ef;
   border: solid 1px #f6e8e4;
 }
+.hightlight {
+  text-align: center;
+}
 .year-price,
 .comment {
-  text-align: center;
+  display: inline-block;
   font-size: 1.4em;
+  background: linear-gradient(
+    transparent 50%,
+    rgba(27, 172, 2, 0.2) 50%,
+    rgb(27, 172, 2) 75%,
+    rgba(27, 172, 2, 0.2)
+  );
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 .price-type {
   margin: 40px 0px;
 }
+.box-item {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #ecf4ed;
+  border: dashed 2px #055a20; /*点線*/
+}
+/* ーーーーーーーーーーーーーーーーーーーー */
+
+/* ーーーーーーー メイン　アクセス ーーーーーーーーー */
+
+.access {
+  background-color: #fdf7f2;
+  padding: 30px 0px;
+}
+/* ーーーーーーーーーーーーーーーーーーーー */
+
+/* ーーーーーーー メイン　お問合せ ーーーーーーーーー */
+
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー フッター ーーーーーーーーー */

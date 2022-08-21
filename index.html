@@ -36,10 +36,10 @@
           </ul>
         </div>
       </div>
-      <div class="top">
-        <img src="/img/菜花と子供たち.png" alt="子供の写真" />
-      </div>
     </header>
+    <div class="top">
+      <img class="top-img" src="/img/菜花と子供たち.png" alt="子供の写真" />
+    </div>
     <main class="greeting">
       <div class="container">
         <div class="main-title"><h2>ごあいさつ</h2></div>
@@ -83,9 +83,15 @@
             <p>
               親支援、育児サポート、子どもたちの個性に合わせたきめ細やかな保育を大切にしています。
             </p>
-            <p>保険加入済み</p>
-            <p>送迎・病児・出張保育　対応</p>
-            <p>愛知県認可外保育施設申請受理</p>
+            <span class="comment"> 
+              保険加入済み
+            </span>
+            <span class="comment"> 
+              送迎・病児・出張保育　対応
+            </span>
+            <span class="comment"> 
+              愛知県認可外保育施設申請受理
+            </span>
           </div>
         </div>
         <div class="flex-box">
@@ -222,7 +228,11 @@
         </p>
         <div class="price-type">
           <h3>一時預かりについて</h3>
-          <p class="year-price"><b>年会費０円</b></p>
+          <div class="hightlight">
+            <p class="year-price">
+              <b>年会費０円</b>
+            </p>
+          </div>
           <table>
             <tr>
               <th>基本料金<small>8:00〜18:00</small></th>
@@ -250,27 +260,27 @@
               <td>５,５００円～６,６００円</td>
             </tr>
           </table>
+          <div class="box-item">
           <p>
-            ★
-            兄弟割引き有り：利用1人目料金通常、利用2人目料金２割引き利用3人目料金３割引き、利用4人目料金４割引き
-            <small><li>１日の利用が３時間以上で適応（一時預かり）</li></small>
-            <small><li>兄弟での月極め利用は兄弟割対象</li></small>
-            <small
-              ><li>
-                兄弟で一時預かり（1人目）と月極め利用(2人目）の場合対象外
-              </li></small
-            >
-            <small><li>対象は一時預かり全時間・一日預かり全時間</li></small>
+            ※1 別室にて病児保育いたします。 ※2 最大10時間まで<br />
             ★ お迎え時間が５分オーバーした時点で保育料金は加算されます。<br />
-            ※1別室にて病児保育いたします。<br />
-            ※2最大10時間まで
+            ★ 兄弟割引き有り：利用1人目料金通常、利用2人目料金２割引き、利用3人目料金３割引き、利用4人目料金４割引き<br />
+              <small><b>
+                ・１日の利用が３時間以上で適応（一時預かり）<br />
+                ・兄弟での月極め利用は兄弟割対象<br />
+                ・兄弟で一時預かり（1人目）と月極め利用(2人目）の場合対象外<br />
+                ・対象は一時預かり全時間・一日預かり全時間<br /></b>
+              </small>
           </p>
+          </div>
         </div>
         <div class="price-type">
           <h3>月極のご利用について</h3>
-          <p class="year-price">
-            <b>年会費１万円<small>（保険代含む）</small></b>
-          </p>
+          <div class="hightlight">
+            <p class="year-price">
+             <b>年会費１万円<small>（保険代含む）</small></b>
+            </p>
+          </div>
           <table>
             <tr>
               <th>週２日</th>
@@ -289,20 +299,25 @@
               <td>５０，０００円</td>
             </tr>
           </table>
-          <li>月極めの子は土・日・祝・盆・正月・延長料金が２割引</li>
-          <li>母子家庭優遇有</li>
-          <li>基本営業時間内​（８時から１８時まで）</li>
-          <li>年会費は二人目は半額</li>
+          <div class="box-item">
+            <li>月極めの子は土・日・祝・盆・正月・延長料金が２割引</li>
+            <li>母子家庭優遇有</li>
+            <li>基本営業時間内​（８時から１８時まで）</li>
+            <li>年会費は二人目は半額</li>
+          </div>
+          
         </div>
         <div class="price-type">
           <h3>その他オプション</h3>
-          <p class="comment">
-            <b>全て持参可能◎</small></b>
-          </p>
+          <div class="hightlight">
+            <p class="comment">
+              <b>全て持参可能◎</small></b>
+            </p>
+          </div>
           <table>
             <tr>
-              <th>乳幼児食</th>
-              <td>３５０円※</td>
+              <th>乳幼児食※</th>
+              <td>３５０円</td>
             </tr>
             <tr>
               <th>おやつ</th>
@@ -321,7 +336,7 @@
               <td>１００円</td>
             </tr>
           </table>
-          <p>※アレルギー食あります。</p>
+          <p>※アレルギー対応食あります。</p>
         </div>
       </div>
     </main>
@@ -350,43 +365,8 @@
     <main class="contact">
       <div class="container">
         <div class="main-title"><h2 id="contact">お問合せ</h2></div>
-        <h3>持ち物</h3>
-        <p>
-          ＊着替え・一組 <br />
-          ＊帽子 <br />
-          ＊上着（冬期のみ）<br />
-          ＊哺乳ビンと粉ミルク（ミルクを飲んでいるお子様）<br />
-          ＊離乳食または弁当（注文される方は当日9時までに電話連絡下さい）
-          ＊ティッシュペーパー <br />
-          ＊ビニール袋・二つ <br />
-          ＊おむつ <br />
-          ＊おしりふき ＊食事用エプロン（食事用・おやつ用）<br />
-          ＊バスタオル・2枚（お昼寝用）<br />
-          ＊タオル・1枚 ＊連絡帳（初日お渡しします。）
-        </p>
-        <p>
-          ご来園初日は、簡単な面接と健康報告書などの記入をお願いいたします。<br />
-          安全に保育するための書類ですので、よろしくお願いいたします。
-        </p>
-        <h3>初日に必要なもの</h3>
-        <p>
-          ＊運転免許証（または保護者の身元が分かるもの）<br />
-          ＊健康保険証（こちらでコピーさせて頂きます）<br />
-          ＊母子手帳<br />
-          ＊印鑑
-        </p>
-        <p>
-          保険については加入済みです。詳細は、契約時にご確認下さい。<br />なお、契約事項や書類につきましては内容が変更する場合がございますが、ご了承下さい。
-        </p>
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLScLK0V2S5s1N_crP4iBEbxQsThrGwF3vYk89kiZfDDoRFZ9Yw/viewform?embedded=true"
-          width="640"
-          height="1054"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >読み込んでいます…</iframe
-        >
+        
+        
       </div>
     </main>
     <footer>
