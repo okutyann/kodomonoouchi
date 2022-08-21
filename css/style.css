@@ -1,6 +1,6 @@
 body {
-  color: #323232;
-  background-color: #f8f6f2;
+  color: #573001;
+  background-color: #fffcf8;
 }
 
 a {
@@ -25,14 +25,19 @@ h2 {
   clear: both;
 }
 h3 {
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #ec6d4e;
   display: inline-block;
 }
 .main-title {
   text-align: center;
   background: url(/img/オレンジの家.png) no-repeat top center;
-  padding: 60px 0 0 0;
+  padding-top: 60px;
+  margin: 20px 0px;
 }
+main {
+  margin: 50px 0px;
+}
+
 /* ーーーーーーー ヘッダー ーーーーーーーーー */
 .header-menu {
   text-align: center;
@@ -49,45 +54,46 @@ h3 {
 /* ーーーーーーー メイン　挨拶 ーーーーーーーーー */
 .greeting-text {
   margin: 20px 100px;
+  padding: 5px;
 }
 .greeting-letter {
-  margin: 3em 10em 1em 10em;
-  border: dashed 2px #f67838;
+  margin: 3em 10em;
+  border: dashed 2px #fffcf8;
   border-radius: 8px;
-  box-shadow: 0 0 0 10px #fff6e6;
+  box-shadow: 0 0 0 10px #ec6d4e;
   padding: 20px 20px 20px 20px;
   font-weight: bold;
-  color: #f67838;
-  background: #fff3e6;
+  color: #fffcf8;
+  background: #ec6d4e;
 }
 .greeting-letter p {
   margin: 0;
   padding: 0;
 }
 .greeting-title {
-  background: #fff6e6;
+  background: #ec6d4e;
   border-radius: 8px 8px 0 0;
   margin: -20px -20px 5px -20px;
   font-size: 1.3em;
   padding: 10px 0 10px 0;
-  color: #f67838;
+  color: #fffcf8;
   font-weight: bold;
   text-align: center;
 }
 .greeting-text2 {
-  background-color: #fff6e6;
+  background-color: #ec6d4e;
   background-image: linear-gradient(
       90deg,
       rgba(237, 119, 128, 0) 0%,
       rgba(237, 119, 128, 0) 50%,
-      #fff6e6 0%,
-      #fff6e6 100%
+      #ec6d4e 0%,
+      #ec6d4e 100%
     ),
     linear-gradient(
       180deg,
       rgba(237, 119, 128, 0) 0%,
       rgba(237, 119, 128, 0) 95%,
-      #ed7780 100%
+      #fffcf8 100%
     );
   background-size: 8px 100%, 100% 2em;
   line-height: 2;
@@ -123,7 +129,7 @@ h3 {
   max-width: 70%;
   border-radius: 10px;
   display: inline-block;
-  background: #f5f5f5;
+  background: #fffcf8;
   position: relative;
 }
 .bubble p {
@@ -139,21 +145,56 @@ h3 {
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー メイン　料金 ーーーーーーーーー */
+.price-text {
+  text-align: center;
+  font-size: 1.3em;
+}
 .flex-box {
   display: flex;
-  margin: 30px;
+  margin: 30px 0px;
 }
 .flex-box-item {
   padding: 10px;
   margin: 10px;
 }
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 100%;
+}
+
+table th,
+table td {
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th {
+  background-color: #ec6d4e;
+  color: white;
+  border: solid 1px #ff6039;
+}
+
+table td {
+  background-color: #fff2ef;
+  border: solid 1px #f6e8e4;
+}
+.year-price,
+.comment {
+  text-align: center;
+  font-size: 1.4em;
+}
+.price-type {
+  margin: 40px 0px;
+}
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー フッター ーーーーーーーーー */
 footer {
-  background-color: ;
+  background-color: #ec6d4e;
   font-size: 20px;
-  color: white;
+  color: #fffcf8;
   height: 100px;
   text-align: center;
   padding-top: 35px;
