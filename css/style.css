@@ -38,11 +38,11 @@ h3 {
 section {
   margin: 50px 0px;
 }
+html {
+  scroll-padding-top: 230px;
+}
 
 /* ーーーーーーー ヘッダー ーーーーーーーーー */
-.top-img {
-  min-height: 100vh;
-}
 .header {
   position: fixed;
   width: 100%;
@@ -59,7 +59,6 @@ section {
   display: -moz-inline-box;
   display: inline-block;
 }
-
 /* ーーーーーーーーーーーーーーーーーーーー */
 /* ーーーーーーー メイン　挨拶 ーーーーーーーーー */
 .greeting-text {
