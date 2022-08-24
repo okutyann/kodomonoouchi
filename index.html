@@ -12,12 +12,18 @@
       自然に触れ月齢に合った遊びを提供しながら、個々のペースにあった生活を過ごしています。
       何より、大切なお子様を安心安全に保育します。"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
   </head>
   <body>
@@ -40,10 +46,15 @@
         </div>
       </div>
       <div class="top">
-        <img class="top-img" src="/img/菜花と子供たち.png" alt="子供の写真" />
-        <img class="top-img" src="/img/プール.png" alt="子供の写真" />
-        <img class="top-img" src="/img/笑顔な子供.png" alt="子供の写真" />
-        <img class="top-img" src="/img/菜花２.png" alt="子供の写真" />
+        <div class="slider5-wrap">
+         <ul class="slider-5" id="js-slider-5">
+          <li><img class="top-img" src="/img/菜花と子供たち.png" alt="子供の写真" /></li>
+          <li><img class="top-img" src="/img/プール.png" alt="子供の写真" /></li>
+          <li><img class="top-img" src="/img/笑顔な子供.png" alt="子供の写真" /></li>
+          <li><img class="top-img" src="/img/菜花２.png" alt="子供の写真" /></li>
+         </ul>
+        </div>
+        <!-- <div class="dots-5"></div> -->
       </div>
     </header>
     <main>
@@ -469,5 +480,10 @@
         </div>
       <div class="footer-copylight">copyright &copy; 子供のお家 All Rights Reserved.</div>
     </footer>
+     <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
