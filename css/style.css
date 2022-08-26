@@ -49,12 +49,15 @@ html {
   background-color: #fffcf8;
   z-index: 100;
 }
+.header-title {
+  text-align: center;
+}
 .header-menu {
   text-align: center;
   display: block;
 }
 .header-nav-item {
-  margin: 0px 40px;
+  margin: 0px 20px;
   font-size: 20px;
   display: -moz-inline-box;
   display: inline-block;
