@@ -52,12 +52,29 @@ html {
 .header-menu {
   text-align: center;
   display: block;
+  background: url(/img/子供のお家_ヘッダー.png) no-repeat top center;
+  background-size: 180px;
+  padding-top: 85px;
+  margin-top: 10px;
 }
 .header-nav-item {
-  margin: 0px 20px;
   font-size: 20px;
-  display: -moz-inline-box;
+  font-weight: bold;
   display: inline-block;
+  border-right: 1px solid #573001;
+  padding: 0 20px;
+}
+
+.header-menu ul li.header-nav-item:nth-child(2) {
+  margin-right: 12em;
+}
+.header-menu ul li.header-nav-item:nth-child(2),
+.header-menu ul li.header-nav-item:nth-child(4) {
+  border: none;
+}
+.header-nav-item a:hover {
+  color: #ec6d4e;
+  opacity: 10;
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 /* ーーーーーーー メイン　挨拶 ーーーーーーーーー */
@@ -300,6 +317,7 @@ table td {
   text-align: center;
   padding-top: 10px;
 }
+
 .header_left {
   font-size: 30px;
   margin: 0px;
@@ -368,6 +386,7 @@ table td {
 }
 .slider-5 .slick-slide {
   overflow: hidden;
+  height: 500px;
 }
 .slider-5 .slick-slide img {
   display: block;
