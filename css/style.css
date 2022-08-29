@@ -79,9 +79,28 @@ html {
 .top {
   background-image: url(/img/背景.png);
   background-size: 100%;
+  margin-top: -16px;
+}
+.top img {
+  margin-top: 160px;
+}
+@media (max-width: 876px) {
+  .header-menu {
+    background: url(/img/子供のお家_ヘッダー.png) no-repeat top center;
+    background-size: 150px;
+    padding-top: 65px;
+  }
+  .header-nav-item {
+    padding: 0 15px;
+  }
+  .header-menu ul li.header-nav-item:nth-child(2) {
+    margin-right: 8em;
+  }
+}
+@media (max-width: 745px) {
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
-/* ーーーーーーー メイン　挨拶 ーーーーーーーーー */
+/* ーーーーーーー メイン挨拶 ーーーーーーーーー */
 .greeting-text {
   margin: 20px 100px;
   padding: 5px;
@@ -129,9 +148,20 @@ html {
   line-height: 2;
   padding: 4px 10px 22px 10px;
 }
+@media (max-width: 876px) {
+  .greeting-text {
+    margin: 20px 70px;
+    padding: 5px;
+  }
+  .greeting-letter {
+    margin: 3em 6em;
+  }
+}
+@media (max-width: 745px) {
+}
 /* ーーーーーーーーーーーーーーーーーーーー */
 
-/* ーーーーーーー メイン　概要ーーーーーーーーー */
+/* ーーーーーーー メイン概要ーーーーーーーーー */
 .about {
   background-color: #fdf7f2;
   padding: 30px 0px;
@@ -180,7 +210,7 @@ html {
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
-/* ーーーーーーー メイン　料金 ーーーーーーーーー */
+/* ーーーーーーー メイン料金 ーーーーーーーーー */
 .price-text {
   text-align: center;
   font-size: 1.3em;
@@ -246,7 +276,7 @@ table td {
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
-/* ーーーーーーー メイン　アクセス ーーーーーーーーー */
+/* ーーーーーーー メインアクセス ーーーーーーーーー */
 
 .access {
   background-color: #fdf7f2;
@@ -277,7 +307,7 @@ table td {
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
-/* ーーーーーーー メイン　お問合せ ーーーーーーーーー */
+/* ーーーーーーー メインお問合せ ーーーーーーーーー */
 
 .contact {
   font-size: 1.1em;
@@ -308,7 +338,7 @@ table td {
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー フッター ーーーーーーーーー */
-.fotter-info {
+.footer-info {
   display: flex;
   background-color: #ffb3a0;
   font-size: 20px;
@@ -325,21 +355,23 @@ table td {
   padding-top: 10px;
 }
 
-.header_left {
+.footer_left {
   font-size: 30px;
   margin: 0px;
 }
-.fotter-text {
+
+.footer-text {
   font-size: 15px;
 }
-.header_right {
+
+.footer_right {
   display: flex;
   align-items: center;
   margin-left: auto;
   padding-left: 20px;
 }
 
-.header_right li {
+.footer_right li {
   margin-left: 40px;
 }
 
@@ -348,12 +380,12 @@ table td {
   padding-right: 29px;
 }
 
-.header_number {
+.footer_number {
   font-size: 22px;
   padding-left: 10px;
 }
 
-.header_time {
+.footer_time {
   font-size: 10px;
   font-weight: 100;
 }
@@ -366,7 +398,7 @@ table td {
   display: flex;
 }
 
-.header_mail_icon {
+.footer_mail_icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -374,18 +406,72 @@ table td {
   font-size: 2.5em;
 }
 
-.header_mail {
+.footer_mail {
   text-align: center;
+}
+@media (max-width: 876px) {
+  .footer-info {
+    text-align: center;
+    padding: 0px 30px;
+  }
+
+  .footer-copylight {
+    font-size: 15px;
+    padding-top: 13px;
+  }
+
+  .footer_left {
+    font-size: 20px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .footer_right {
+    padding-left: 0px;
+  }
+
+  .footer_right li {
+    margin-left: 10px;
+  }
+
+  .main_box_left {
+    font-size: 18px;
+    padding-right: 18px;
+  }
+
+  .footer_number {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .footer_time {
+    font-size: 10px;
+  }
+
+  .main_box_right {
+    padding: 15px 15px;
+    font-size: 13px;
+    border: 3px solid #573001;
+  }
+
+  .footer_mail_icon {
+    padding-right: 5px;
+    font-size: 1.5em;
+  }
+  .footer-access {
+    font-size: 16px;
+  }
+  .footer-logo img {
+    width: 200px;
+  }
+}
+@media (max-width: 745px) {
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
 /* ーーーーーーー jQuery ーーーーーーーーー */
-.top {
-  margin-top: -16px;
-}
-.top img {
-  margin-top: 160px;
-}
 .slider5-wrap {
   width: 70%;
   margin: 0 auto;
@@ -402,31 +488,3 @@ table td {
   -o-object-fit: cover;
   object-fit: cover;
 }
-/* .dots-5 .slick-dots {
-  text-align: center;
-}
-.dots-5 .slick-dots li {
-  display: inline-block;
-  width: 100px;
-  height: 6px;
-  margin: 4px;
-  background: #eaeaea;
-  cursor: pointer;
-}
-.dots-5 .slick-dots button {
-  display: block;
-  width: 0%;
-  height: 6px;
-  margin: 0;
-  font-size: 0;
-  padding: 0;
-  border: 0;
-  opacity: 0;
-  outline: none;
-  background: #0a467d;
-  cursor: pointer;
-}
-.dots-5 .slick-dots .slick-active button {
-  background: #0a467d;
-  opacity: 1;
-} */
