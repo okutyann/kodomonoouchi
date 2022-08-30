@@ -41,6 +41,20 @@ section {
 html {
   scroll-padding-top: 230px;
 }
+@media (max-width: 745px) {
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    border-bottom: 2px solid #ec6d4e;
+    font-size: 1em;
+  }
+  .main-title {
+    background-size: 40px;
+    padding-top: 30px;
+    margin: 0px;
+  }
+}
 
 /* ーーーーーーー ヘッダー ーーーーーーーーー */
 .header {
@@ -98,6 +112,16 @@ html {
   }
 }
 @media (max-width: 745px) {
+  .header-menu {
+    background-size: 150px;
+    padding-top: 110px;
+  }
+  .header-nav-item {
+    display: none;
+  }
+  .top img {
+    margin-top: 135px;
+  }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 /* ーーーーーーー メイン挨拶 ーーーーーーーーー */
@@ -152,12 +176,34 @@ html {
   .greeting-text {
     margin: 20px 70px;
     padding: 5px;
+    font-size: 0.9em;
   }
   .greeting-letter {
     margin: 3em 6em;
   }
 }
 @media (max-width: 745px) {
+  .greeting-text {
+    margin: 10px 10px;
+    padding: 0px;
+  }
+  .greeting-letter {
+    margin: 2em 1em;
+    padding: 10px 10px 10px 10px;
+  }
+  .greeting-title {
+    margin: -10px -10px 5px -10px;
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+    color: #fffcf8;
+    font-weight: bold;
+    text-align: center;
+  }
+  .greeting-text2 {
+    background-size: 8px 100%, 100% 2em;
+    padding: 2px 5px 10px 5px;
+    font-size: 0.8em;
+  }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
@@ -166,13 +212,14 @@ html {
   background-color: #fdf7f2;
   padding: 30px 0px;
 }
+.flex-box-about {
+  display: flex;
+  margin: 30px 0px;
+}
 .flex-box-img {
   width: 100%;
   height: 100%;
   padding: 20px;
-}
-.flex-box-img img {
-  border-radius: 30px;
 }
 .flex-box-text {
   padding-left: 20px;
@@ -207,6 +254,36 @@ html {
 }
 .icon p {
   margin: 5px 0px;
+}
+@media (max-width: 745px) {
+  .flex-box-about {
+    display: block;
+    margin: 10px 0px;
+  }
+  .flex-box-img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .flex-box-text {
+    padding-left: 10px;
+    font-size: 0.8em;
+  }
+  .right-side .icon {
+    float: none;
+    margin-right: 0px;
+  }
+  .icon {
+    width: auto;
+    text-align: center;
+  }
+  .bubble {
+    max-width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 10px;
+    font-size: 0.8em;
+  }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
@@ -273,6 +350,35 @@ table td {
   margin: 2em 0;
   background: #ecf4ed;
   border: dashed 2px #055a20; /*点線*/
+}
+@media (max-width: 745px) {
+  .price-text {
+    font-size: 1em;
+  }
+  .flex-box {
+    margin: 10px 0px;
+  }
+  .flex-box-item {
+    padding: 0px;
+    margin: 0px;
+  }
+  .year-price,
+  .comment {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+  }
+  .box-item {
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    font-size: 0.7em;
+    border: dashed 1px #055a20; /*点線*/
+  }
+  table th {
+    font-size: 0.8em;
+  }
+  table td {
+    font-size: 0.9em;
+  }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
 
@@ -487,4 +593,9 @@ table td {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+@media (max-width: 745px) {
+  .slider5-wrap {
+    width: 90%;
+  }
 }
