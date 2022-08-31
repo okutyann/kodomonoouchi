@@ -54,6 +54,9 @@ html {
     padding-top: 40px;
     margin: 0px;
   }
+  section {
+    margin: 25px 0px;
+  }
 }
 
 /* ーーーーーーー ヘッダー ーーーーーーーーー */
@@ -113,14 +116,21 @@ html {
 }
 @media (max-width: 745px) {
   .header-menu {
-    background-size: 150px;
-    padding-top: 110px;
+    background-size: 120px;
+    padding-top: 80px;
   }
   .header-nav-item {
-    display: none;
+    font-size: 10px;
+    padding: 0 10px;
   }
   .top img {
-    margin-top: 135px;
+    margin-top: 150px;
+  }
+  .header-menu ul li.header-nav-item:nth-child(2) {
+    margin-right: 0px;
+  }
+  .header-menu ul li.header-nav-item:nth-child(2) {
+    border-right: 1px solid #573001;
   }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
@@ -539,6 +549,7 @@ table td {
 .footer_mail {
   text-align: center;
 }
+
 @media (max-width: 876px) {
   .footer-info {
     text-align: center;
@@ -621,14 +632,17 @@ table td {
   }
   .main_box_right {
     padding: 10px 10px;
-    font-size: 1em;
+    font-size: 1.1em;
     border: 2px solid #573001;
   }
   .footer_mail_icon {
-    padding: 0px 30px;
+    padding: 0px 20px;
   }
   .footer-logo img {
     width: 150px;
+  }
+  .icon_size {
+    font-size: 1.4em;
   }
 }
 /* ーーーーーーーーーーーーーーーーーーーー */
