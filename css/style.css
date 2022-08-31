@@ -31,8 +31,10 @@ h3 {
 }
 .main-title {
   text-align: center;
-  background: url(/img/オレンジの家.png) no-repeat top center;
-  padding-top: 60px;
+  background-image: url(/img/オレンジの家.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 90px;
   margin: 20px 0px;
 }
 section {
@@ -51,7 +53,7 @@ html {
   }
   .main-title {
     background-size: 40px;
-    padding-top: 40px;
+    padding-top: 60px;
     margin: 0px;
   }
   section {
@@ -69,7 +71,9 @@ html {
 .header-menu {
   text-align: center;
   display: block;
-  background: url(/img/子供のお家_ヘッダー.png) no-repeat top center;
+  background-image: url(/img/子供のお家_ヘッダー.png);
+  background-repeat: no-repeat;
+  background-position: top center;
   background-size: 180px;
   padding-top: 85px;
   margin-top: 10px;
@@ -103,7 +107,6 @@ html {
 }
 @media (max-width: 876px) {
   .header-menu {
-    background: url(/img/子供のお家_ヘッダー.png) no-repeat top center;
     background-size: 150px;
     padding-top: 65px;
   }
@@ -120,8 +123,8 @@ html {
     padding-top: 80px;
   }
   .header-nav-item {
-    font-size: 10px;
-    padding: 0 10px;
+    font-size: 14px;
+    padding: 0 8px 0 5px;
   }
   .top img {
     margin-top: 150px;
