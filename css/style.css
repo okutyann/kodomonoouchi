@@ -31,7 +31,7 @@ h3 {
 }
 .main-title {
   text-align: center;
-  background-image: url(/img/オレンジの家.png);
+  background-image: url(/img/orange_home.png);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 90px;
@@ -71,7 +71,7 @@ html {
 .header-menu {
   text-align: center;
   display: block;
-  background-image: url(/img/子供のお家_ヘッダー.png);
+  background-image: url(/img/header_logo.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 180px;
