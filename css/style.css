@@ -37,9 +37,7 @@ h3 {
   padding-top: 90px;
   margin: 20px 0px;
 }
-section {
-  margin: 50px 0px;
-}
+
 html {
   scroll-padding-top: 230px;
 }
@@ -103,7 +101,7 @@ html {
   margin-top: -16px;
 }
 .top img {
-  margin-top: 160px;
+  margin-top: 170px;
 }
 @media (max-width: 876px) {
   .header-menu {
@@ -223,7 +221,6 @@ html {
 /* ーーーーーーー メイン概要ーーーーーーーーー */
 .about {
   background-color: #fdf7f2;
-  padding: 30px 0px;
 }
 .flex-box-about {
   display: flex;
@@ -399,7 +396,6 @@ table td {
 
 .access {
   background-color: #fdf7f2;
-  padding: 30px 0px;
 }
 .access-text {
   font-weight: bold;
